@@ -73,6 +73,7 @@ public class OutgoingPacket implements Packet {
              str.toCharArray()) {
             buffer.putChar(ch);
         }
+        buffer.putChar('\000');
     }
 
     public ByteBuffer getBuffer() {
