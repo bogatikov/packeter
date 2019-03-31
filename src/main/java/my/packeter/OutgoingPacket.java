@@ -11,7 +11,7 @@ import java.nio.ByteBuffer;
  */
 public class OutgoingPacket implements Packet {
 
-    private ByteBuffer buffer;
+    protected ByteBuffer buffer;
 
 
     /***

@@ -4,7 +4,7 @@ package my.packeter;
 import java.nio.ByteBuffer;
 
 public class IncomingPacket implements Packet {
-    private ByteBuffer buffer;
+    protected ByteBuffer buffer;
 
     /***
      * Check the buffer are exist
